@@ -18,11 +18,10 @@ nav{
   align-items:center;
 }
 
-.nav-title{
+.section-title{
   color:  #131313;
   font-size: 2.813rem;
   font-weight: 700;
-
 }
 
 nav > ul{
@@ -142,6 +141,49 @@ main{
 .features-span{
   color:#FF900E;
   font-weight:700;
+}
+
+/* Facts Section */
+
+.facts{
+  margin-left:240px;
+}
+
+.facts-paragraph{
+  color: #727272;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; 
+  margin-top:24px;
+  margin-bottom:100px;
+}
+
+.facts-card-container{
+  display:flex;
+  justify-content: space-around;
+}
+
+ .card{
+  border-radius: 8px;
+  border: 1px solid #FF900E;
+  text-align: center;
+  padding:30px 40px;
+  margin:auto;
+
+}
+
+.card-stats{
+  color: #424242;
+  font-size: 45px;
+  font-weight: 600;
+  
+}
+
+.card-title{
+  color: #727272;
+  font-size: 20px;
+  font-weight: 600;
+
 }
 
 @media screen and (max-width:576px){
