@@ -145,8 +145,13 @@ main{
 
 /* Facts Section */
 
+
 .facts{
-  margin-left:240px;
+  max-width:1420px;
+  margin:auto;
+}
+.section-title{
+  margin-left:-10px;
 }
 
 .facts-paragraph{
@@ -156,20 +161,24 @@ main{
   line-height: 26px; 
   margin-top:24px;
   margin-bottom:100px;
+  margin-left:-10px
 }
 
 .facts-card-container{
   display:flex;
-  justify-content: space-around;
+  margin:auto;
+  margin:auto;
+  justify-content: space-around; 
+  
 }
+
+
 
  .card{
   border-radius: 8px;
   border: 1px solid #FF900E;
   text-align: center;
   padding:30px 40px;
-  margin:auto;
-
 }
 
 .card-stats{
@@ -206,6 +215,36 @@ main{
     margin-top:0.625rem;
   }
 
+  header{
+    margin-right:-15px;
+  }  
+
+  .section-title{
+    margin-left:30px;
+    
+  }
+
+  .facts-paragraph{
+    margin-left:30px;
+    margin-right:0;
+  }
+
+  .facts-card-container{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:15px;
+    margin-left:5px;
+    margin-right:5px;
+  }
+
+  .card{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding:10px 20px;
+  }
+
+ 
 }
 
 /* Table or medium Devices */
@@ -230,4 +269,22 @@ main{
     margin-left:6.875rem;
     padding:0;
   }
+
+  .section-title{
+    margin-left:20px;
+  }
+
+  .facts-paragraph{
+    margin-left:20px;
+    
+  }
+
+  .card{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding:10px 20px;
+    margin-left:-31px;
+  }
+
 }
